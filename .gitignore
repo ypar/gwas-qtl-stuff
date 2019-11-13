@@ -1,0 +1,32 @@
+# byte-compiled
+__pycache__/
+*.py[ocd]
+
+# tests
+*.pytest_cache/
+.cache
+test/
+test/*
+outdir/
+
+# oauth token
+.httr-oauth
+
+# tox
+.tox
+
+# notebook cache
+*.ipynb_checkpoints/
+
+# rmarkdown
+*.utf8.md
+*.knit.md
+
+# os
+.DS_Store
+Icon?
+Thumbs.db
+.directory
+
+# emacs
+*~
